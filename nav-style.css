@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Underdog", system-ui;
+}
+
+#logo  img {
+    width: 150px;
+    height: 75px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.all-content {
+    background: #faf1e0;
+}
+
+html ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html ::-webkit-scrollbar-thumb {
+    background: #264f33;
+    border-radius: 10px;
+}
+
+html ::-webkit-scrollbar {
+    width: 10px;
+}
+
+#navbar {
+    background-color: #d75807;
+}
+
+.navbar-nav {
+    margin-left: 50px;
+}
+
+.nav-item .nav-link{
+    color: #264f33;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+
+}
+
+.nav-item .nav-link:hover {
+    background:#264f33;
+    border-radius: 5px;
+    color: #d75807;
+}
+
+#navbar form button {
+    background: #264f33;
+    color: white;
+    border: 1px solid white;
+}
+
+#navbar form button:hover {
+    background-color: rgb(0, 0, 0);
+}
+#navbar form input{
+    border-color: #264f33;
+    border: 1px solid #264f33;
+    
+}
+
+#navbar form input:focus {
+    box-shadow: 0px 0px 12px #264f33;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-sizing: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#navbar form button:focus {
+    box-sizing: none;
+    outline: none;
+    box-shadow: none;
+}
+/*  */
+.nav-link:hover, .nav-link.active {
+    color: #264f33;
+}
+
+.nav-item .nav-link:visited
+.nav-item .nav-link:active
+ {
+  color: rgb(0, 0, 0) !important; 
+  text-decoration: none;
+}
+/*  */

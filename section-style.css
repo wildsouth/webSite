@@ -1,0 +1,246 @@
+#home {
+    width: 100%;
+    /* height: 90vh; */
+    background-image: url(/webSite/images/home_hero.png);
+    background-size: cover;
+    background-position: 88%;
+    
+}
+
+#home::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#home .content {
+    padding-top: 210px;
+    margin-left: 56px;
+    color: #faf1e0;
+    position: relative;
+}
+
+#home .content h3 {
+    font-size: 50px;
+    text-transform: capitalize;
+    /* font-size: 2.5em; */
+}
+
+#home .content p {
+    /* margin-top: 10px; */
+}
+
+#home .content h4 {
+    font-size: 25px;
+}
+
+
+/*  */
+#about {
+    width: 100%;
+    /* height: 100vh; */
+}
+
+#about .container {
+    padding-top: 70px;
+    color: #264f33;
+    /* color: #f3b307; */
+    /* text-shadow: 0 0 1px #264f33; */
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #f3b307;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading span {
+    color: #264f33;
+}
+
+#about .card {
+    border-radius: 20px;
+}
+
+#about .card img {
+    border-radius: 20px;
+}
+
+#about-btn {
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    text-transform: capitalize;
+    border: 2px solid #f3b307;
+    color: #f3b307;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#about-btn:hover {
+    background-color: #f3b307;
+    color: #264f33;
+}
+
+@media screen and (max-width:982px){
+    #about p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:766px){
+    #about p {
+        font-size: 15px;
+    } 
+    #about {
+        height: 120vh;
+        margin-bottom: 120px;
+    }
+}
+
+/*  */
+#reservation {
+    width: 100%;
+    /* height: 60vh; */
+}
+#reservation .container {
+    margin-top: 30px;
+}
+
+#reservation .card {
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#reservation .card img {
+    border-radius: 20px;
+}
+
+#reservation .card:hover {
+    transform: translateY(-10px);
+
+}
+
+#reservation .tb_1 {
+    position: relative;
+}
+
+#reservation .tb_1note {
+    position: absolute;
+    color: #f3b307;
+    text-transform: capitalize;
+    background: transparent;
+    border: 2px solid #f3b307;
+    border-radius: 10px;
+    padding: 5px 10px;
+    top: 330px;
+    left: 70px;
+    
+}
+#reservation .tb_1note:hover {
+    background-color: #264f33;
+    color: #f3b307;
+}
+
+section a {
+    text-decoration: none;
+}
+
+#reservation .heading a {
+    color: #f3b307;
+}
+
+#about .heading a {
+    color: #f3b307;
+}
+
+#contact .heading a {
+    color: #f3b307;
+}
+
+#services a {
+    color: #f3b307;
+}
+
+/*  */
+#contact {
+    /* background: #264f33; */
+    width: 100%;
+    /* height: 100vh; */
+    padding-top: 70px;
+}
+
+#contact .container {
+    background: linear-gradient(to right, #264f33 70%, #d75807);
+    border-radius: 20px;
+    color: #f3b307;
+    padding: 20px;
+    height: 80vh;
+    align-content: center;
+    
+}
+
+#contact-p {
+    margin-right: 50px;
+
+}
+
+#contact-btn {
+    width: 200px;
+    /* height: 36px; */
+    background: transparent;
+    text-transform: capitalize;
+    border: 2px solid #f3b307;
+    color: #f3b307;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#contact-btn:hover {
+    background-color: #f3b307;
+    color: #264f33;
+}
+
+#col {
+    width: 40%;
+    /* height: 46vh; */
+    background: #faf1e0;
+    /* margin-left: 50px; */
+    color: #264f33;
+    border-radius: 20px;
+    
+}
+
+@media screen and (max-width:766px) {
+    #col {
+        width: 100%;
+        box-shadow: 0 0 2px #264f33;
+    }
+    
+    #contact{
+        height: 150vh;
+    }
+    
+}
+
+
+/*  */
+#services .card-body {
+    color: #264f33;
+   
+}
+
+#card-icon {
+    border-radius: 20px;
+}
